@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@types/ethereumjs-abi": "^0.6.3",
-    "@types/node-fetch": "^2.5.4",
+    "@types/node-fetch": "^2.6.11",
     "@types/qs": "^6.9.1",
     "@types/web3": "^1.2.2",
     "bignumber.js": "^8.0.2",
