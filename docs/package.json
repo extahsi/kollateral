@@ -8,9 +8,9 @@
     "serve": "docz serve"
   },
   "dependencies": {
-    "docz": "^2.3.0-alpha.13",
-    "gatsby": "^2.19.25",
-    "gatsby-theme-docz": "^2.3.0-alpha.13",
+    "docz": "^2.3.0",
+    "gatsby": "^4.10.2",
+    "gatsby-theme-docz": "^2.3.0",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
