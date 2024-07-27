@@ -5,16 +5,20 @@
   "scripts": {
     "dev": "docz dev",
     "build": "docz build",
-    "serve": "docz serve"
+    "serve": "docz serve",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "docz": "^2.3.0-alpha.13",
+    "docz": "^2.3.0",
     "gatsby": "^2.19.25",
-    "gatsby-theme-docz": "^2.3.0-alpha.13",
+    "gatsby-theme-docz": "^2.3.0",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-helmet-async": "^1.0.4",
-    "styled-components": "^5.0.1"
-  }
+    "styled-components": "^5.0.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
